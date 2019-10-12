@@ -27,7 +27,7 @@ A collection of hello scripts for testing RPM creation.
 echo "BUILDROOT = $RPM_BUILD_ROOT"
 mkdir -p $RPM_BUILD_ROOT/usr/local/bin/
 
-cp /home/develop/c-hello/hello $RPM_BUILD_ROOT/usr/local/bin
+cp $SRC_ROOT/hello $RPM_BUILD_ROOT/usr/local/bin
 
 exit
 
@@ -40,4 +40,4 @@ exit
 rm -rf $RPM_BUILD_ROOT/usr/local/bin
 
 # Build with the following syntax:
-# rpmbuild -bb hello.spec
+# export SRC_ROOT=$(pwd) && rpmbuild -bb hello.spec
