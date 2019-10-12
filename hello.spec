@@ -12,7 +12,6 @@ License: GPL
 URL: http://www.walk8243.xyz
 Group: System
 Packager: walk8243
-BuildRoot: ~/rpmbuild/
 
 
 %description
