@@ -1,2 +1,2 @@
-# c-hello
-C言語によるHelloWorld
+# rpm-hello
+RPMパッケージをビルドしてHelloWorld
